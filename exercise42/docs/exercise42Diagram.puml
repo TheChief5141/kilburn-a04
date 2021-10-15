@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+class Solution42{
+    FileReader inputFile
+    ArrayList(ArrayList()) info
+    Scanner Input
+
+    -getInfo(grabs names from file, and store in ArrayList)
+    -sortInfo(sorts the ArrayList)
+    -printInfo(prints sorted names to the user)
+
+}
+
+
+
+@enduml

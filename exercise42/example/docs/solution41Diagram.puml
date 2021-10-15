@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Solution41{
+    FileReader inputFile
+    ArrayList[] names
+    Scanner Input
+
+    -getNames(grabs names from file, and store in ArrayList)
+    -sortNames(sorts the ArrayList)
+    -printNames(prints sorted names to the user)
+
+}
+@enduml
